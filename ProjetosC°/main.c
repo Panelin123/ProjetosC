@@ -9,7 +9,7 @@ int main() {
 
 
     printf("Diga seu nome: ");
-    fgets(nome, sizeof(nome), stdin);
+    scanf(nome, (nome), stdin);
 
     printf("Diga sua idade: ");
     scanf("%d", &idade);
@@ -25,7 +25,7 @@ int main() {
     printf("\nNome: %s", nome);
     printf("Idade: %d\n", idade);
     printf("Altura: %.2f\n", altura);
-    printf("Gênero: %s\n", genero);
+    printf("GÃªnero: %s\n", genero);
 
     return 0;
 }
